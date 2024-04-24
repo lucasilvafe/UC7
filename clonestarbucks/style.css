@@ -1,0 +1,98 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#menu {
+    border: 1px solid #c9c9c9;
+    height: 100px;
+    width: 1909px;
+}
+
+#banner {
+    background: #C4C4C4;
+    height: 420px;
+    width: 1440px;
+}
+
+#text-1 {
+    background: #E9EAE9;
+    margin-top: 28px;
+    height: 191px;
+    width: 1440px;
+}
+
+
+#coffe-text {
+    align-items: center;
+    background: #E9EAE9;
+    margin-top: 28px;
+    margin-right: 0px;
+    height: 420px;
+    width: 720px;
+}
+
+#coffeimg {
+    background: #C4C4C4;
+    margin-top: 28px;
+    height: 420px;
+    width: 720px;
+}
+
+#planta {
+    background: #E9EAE9;
+    margin-top: 28px;
+    height: 420px;
+    width: 720px;
+}
+
+
+#planta-text {
+    background: #C4C4C4;
+    margin-top: 28px;
+    height: 420px;
+    width: 720px;
+}
+
+#pessoas-text {
+    background: #E9EAE9;
+    margin-top: 28px;
+    margin-right: 0px;
+    height: 420px;
+    width: 720px;
+}
+
+#pessoasimg {
+    background: #C4C4C4;
+    margin-top: 28px;
+    margin-right: 0px;
+    height: 420px;
+    width: 720px;
+}
+
+#coffe {
+    display: flex;
+    flex-direction: row;
+}
+
+#plantas {
+    display: flex;
+    flex-direction: row;
+}
+
+#pessoa {
+    display: flex;
+    flex-direction: row;
+}
+
+button {
+    border-radius: 30px;
+}
+footer {
+    margin-top: 28px;
+    background: #ffffff;
+    border: 1px solid #c9c9c9;
+    height: 486px;
+    width: 1912px;
+}

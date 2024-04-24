@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h4>A tag para criar paragrafos</h4>
+    <p>A tag para criar paragrafo é 'P'</p>
+
+    <hr>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis esse corrupti nostrum numquam eveniet iste
+        tempora officiis nisi, voluptas pariatur labore, enim nobis quidem eos magni at culpa sed laboriosam.</p>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis esse corrupti nostrum numquam eveniet iste
+        tempora officiis nisi, voluptas pariatur labore, enim nobis quidem eos magni at culpa sed laboriosam.</p>
+
+    <h4>A tag para criar texto em Negrito e italico</h4>
+    <p>A tag para Negrito é 'b' e para Italico é 'i'</p>
+
+    <hr>
+
+    <p><b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, officia. Quasi provident, exercitationem,
+            aspernatur, fugit impedit labore nemo est quod a commodi soluta ullam aut assumenda. Quasi, sit! Impedit,
+            et!</b></p>
+
+    <p><i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus sed quisquam eligendi, voluptatibus enim
+            mollitia natus quo magni, vitae possimus sint libero omnis, quam sapiente consequatur nulla iusto. Facere,
+            veritatis!</i></p>
+
+    <p><u>Lorem</u> ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem, excepturi explicabo. Atque dolore
+        itaque blanditiis sint, ducimus iusto delectus dolorem provident, eligendi alias facere, modi perferendis.
+        Consequatur necessitatibus quaerat molestiae.</p>
+
+    <p><s>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum dignissimos maxime, labore cumque eligendi
+            molestias nihil perspiciatis alias voluptatibus eius, sunt atque. Optio, iure quaerat voluptas animi vitae
+            soluta nulla.</s></p>
+
+    <h4>A tag para criar listas</h4>
+    <p>A tag para listas Ordenadas é 'Ol' e listas Desordenadas é 'Ul'</p>
+
+    <hr>
+
+    <ul>
+        <li>Maçã</li>
+        <li>Abacaxi</li>
+        <li>Laranja</li>
+    </ul>
+
+    <ol>
+        <li>Arroz</li>
+        <li>Macarrão</li>
+        <li>Cebola</li>
+    </ol>
+
+    <hr>
+
+    <h4>A tag para criar tabelas</h4>
+    <p>A tag para criar tabelas é 'table', 'thead', 'tr', 'th'</p>
+
+    <hr>
+
+    <table border="1px solid">
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Idade</th>
+                <th>Cidade</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Lucas</td>
+                <td>23</td>
+                <td>Natal</td>
+            </tr>
+
+            <tr>
+                <td>Lusca</td>
+                <td>83</td>
+                <td>Natal</td>
+            </tr>
+            <tr>
+                <td>Eduanea</td>
+                <td>18</td>
+                <td>Natal</td>
+            </tr>
+        </tbody>
+
+    </table>
+
+
+    <h4>A tag para criar Formulários</h4>
+    <p>A tag para criar formularios são</p>
+
+    <hr>
+    <fieldset>
+        <legend>Formulario</legend>
+
+        <form action="" method="">
+            <label for="nome">Nome:</label>
+            <input type="text" name="" id="nome"> <br><br>
+
+            <label for="idade">Idade</label>
+            <input type="number" name="" id="idade" min="0" max="999"> <br><br>
+
+            <label for="nasc">Data Nascimento:</label>
+            <input type="date" name="" id="nasc"> <br><br>
+
+            <label for="snh">Senha:</label>
+            <input type="password" name="senha" id="snh"> <br><br>
+
+            <label for="email">E-mail:</label>
+            <input type="email" name="" id="email" placeholder="exemplo@gmail.com"> <br><br>
+
+            <label for="chk">Aceitar os termos:</label>
+            <input type="checkbox" name="check" id="chk" value="agree" checked> <br><br>
+
+            <label for="">Genero</label> <br>
+            <label for="masc">Masculino</label>
+            <input type="radio" name="genero" id="masc" value="masculino">
+
+            <label for="fem">Femeinino</label>
+            <input type="radio" name="genero" id="fem" value="feminino">
+
+            <label for="outr">Outros</label>
+            <input type="radio" name="genero" id="outr">
+            <br><br>
+
+            <label for="">Cidade</label>
+            <select name="cidade" id="cidade">
+                <option value="">Solecione uma cidade</option>
+                <option value="natal">Natal</option>
+                <option value="parnamirim">Parnamirim</option>
+                <option value="mossoro">Mossoró</option>
+            </select>
+            <br><br>
+            <!--Area de Texto-->
+            <textarea name="mensagem" id="mansagem" cols="30" rows="10" placeholder="Oi :)"></textarea>
+            <br>
+            <input type="submit" value="Enviar formulario">
+        </form>
+    </fieldset>
+    <hr>
+
+    <figure>
+        <img src="./ednaldo.png" alt="">
+        <figcaption>Fig Ednaldo Pereira</figcaption>
+    </figure>
+</body>
+
+</html>
