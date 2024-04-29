@@ -88,7 +88,7 @@ a:hover {
     width: 1440px;
 }
 
-#text-1 {
+#destaque {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -188,7 +188,7 @@ a:hover {
     margin-bottom: 20px;
 }
 
-.text-1 {
+.destaque {
     margin-bottom: 20px;
 }
 
@@ -222,6 +222,7 @@ button:hover
 footer {
     display: flex;
     flex-direction: row;
+    justify-content: flex-start;
     margin-top: 28px;
     background: #ffffff;
     border: 1px solid #c9c9c9;
@@ -230,18 +231,224 @@ footer {
 }
 
 .footer {
-    display: flex;
+    padding: 10px;
     flex-direction: column;
+    border: 1px rgb(0, 255, 191) solid;
 
 }
 
 #footer {
-    text-align: center;
     border: 1px solid red;
     margin: 10px;
+    text-align: center;
 }
 
 .historias-img {
+    border: #1e3932 solid;
     width: 100px;
     height: 100px;
+    margin-top: 10px;
+    padding: 10px;
+    
+}
+
+@media only screen and (max-width: 480px) {
+    body {
+        display: block;
+        flex-direction: row;
+        align-items: center;
+    }
+    #menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border: 1px solid #c9c9c9;
+        height: 100px;
+        width: 320px;
+    }
+
+    #banner {
+        background: #C4C4C4;
+        height: 320px;
+        width: 320px;
+    
+    }
+
+    .banner {
+        width: 480px;
+        height: 320px;
+    }
+
+    #destaque {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: #D4E9E2;
+        margin-top: 28px;
+        height: 191px;
+        width: 480px;
+    }
+
+    #coffe {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #plantas {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #pessoa {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 28px;
+        background: #ffffff;
+        border: 1px solid #c9c9c9;
+        height: 706px;
+        width: 480px;
+    }
+
+    .texto-loja {
+        color: #1e3932;
+        font-weight: 800;
+    }
+    
+    #logo-historias {
+        width: 100px;
+        height: 41px;
+    }
+    
+    #logo-starbucks {
+        margin-left: 10px;
+        margin-right: 30px;
+        width: 50px;
+        height: 50px;
+    }
+    
+    
+    
+    #banner {
+        background: #C4C4C4;
+        height: 320px;
+        width: 480px;
+    }
+    
+    #destaque {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: #D4E9E2;
+        margin-top: 28px;
+        height: 191px;
+        width: 480px;
+    }
+    
+    
+    #coffe-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: #D4E9E2;
+        margin-top: 28px;
+        margin-right: 0px;
+        height: 320px;
+        width: 480px;
+    }
+    
+    #coffeimg {
+        background: #C4C4C4;
+        margin-top: 28px;
+        height: 320px;
+        width: 480px;
+    }
+    
+    #maonaplantaimg {
+        background: #C4C4C4;
+        margin-top: 28px;
+        height: 320px;
+        width: 480px;
+    }
+    
+    
+    #planta-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: #D4E9E2;
+        margin-top: 28px;
+        height: 320px;
+        width: 480px;
+    }
+    
+    #pessoas-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: #D4E9E2;
+        margin-top: 28px;
+        height: 320px;
+        width: 480px;
+    }
+    
+    #pessoasimg {
+        background: #C4C4C4;
+        margin-top: 28px;
+        margin-right: 0px;
+        height: 320px;
+        width: 480px;
+    }
+    
+    img {
+        height: 320px;
+        width: 480px;
+    }
+
+    #left-menu {
+        width: 320px;
+        height: 80px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    #right-menu {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 320px;
+        height: 80px;
+        justify-content: flex-end;
+    }
+    
+    .texto-loja {
+        color: #1e3932;
+        font-weight: 400;
+    }
+    
+    #logo-historias {
+        width: 100px;
+        height: 41px;
+    }
+    
+    #logo-starbucks {
+        margin-left: 10px;
+        margin-right: 30px;
+        width: 50px;
+        height: 50px;
+    }
+
+   
 }
