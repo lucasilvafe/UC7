@@ -5,12 +5,13 @@ body {
     align-items: center;
 }
 
+/*Define o tamanho para todas as imagens do site obs: altera o tamho banner*/
 img {
     height: 420px;
     width: 720px;
 }
 
-
+/*start menu*/
 #menu {
     display: flex;
     flex-direction: row;
@@ -20,7 +21,15 @@ img {
     width: 1440px;
 }
 
-#left-menu {
+/*Parte esquerda que fica dentro do menu*/
+#logo-starbucks {
+    margin-left: 10px;
+    margin-right: 30px;
+    width: 50px;
+    height: 50px;
+}
+
+#menu-esquerdo {
     width: 750px;
     height: 100px;
     display: flex;
@@ -28,7 +37,8 @@ img {
     align-items: center;
 }
 
-#right-menu {
+/*Parte direita que fica dentro do menu*/
+#menu-direito {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -37,22 +47,139 @@ img {
     justify-content: flex-end;
 }
 
-.texto-loja {
-    color: #1e3932;
-    font-weight: 800;
-}
-
 #logo-historias {
     width: 100px;
     height: 41px;
 }
 
-#logo-starbucks {
-    margin-left: 10px;
-    margin-right: 30px;
-    width: 50px;
-    height: 50px;
+.encontre-loja {
+    color: #1e3932;
+    font-weight: 800;
 }
+/*end menu*/
+
+/*start banner*/
+.banner {
+    width: 1440px;
+    height: 420px;
+}
+
+#banner {
+    background: #C4C4C4;
+    height: 420px;
+    width: 1440px;
+}
+/*end banner*/
+
+/*start destaque*/
+#destaque {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #D4E9E2;
+    margin-top: 28px;
+    height: 191px;
+    width: 1440px;
+}
+
+.destaque {
+    margin-bottom: 20px;
+}
+/*end destaque*/
+
+/*start cafe*/
+#cafe {
+    display: flex;
+    flex-direction: row;
+}
+
+#texto-cafe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #D4E9E2;
+    margin-top: 28px;
+    margin-right: 0px;
+    height: 420px;
+    width: 720px;
+}
+
+#cafe-imagem {
+    background: #C4C4C4;
+    margin-top: 28px;
+    height: 420px;
+    width: 720px;
+}
+/*end cafe*/
+
+/*start plantando*/
+#plantando {
+    display: flex;
+    flex-direction: row;
+}
+
+#mao-planta-img {
+    background: #C4C4C4;
+    margin-top: 28px;
+    height: 420px;
+    width: 720px;
+}
+
+#texto-planta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #D4E9E2;
+    margin-top: 28px;
+    height: 420px;
+    width: 720px;
+}
+/*end plantando*/
+
+/*start pessoa*/
+#pessoa {
+    display: flex;
+    flex-direction: row;
+}
+
+#texto-pessoas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #D4E9E2;
+    margin-top: 28px;
+    height: 420px;
+    width: 720px;
+}
+
+#pessoas-img {
+    background: #C4C4C4;
+    margin-top: 28px;
+    margin-right: 0px;
+    height: 420px;
+    width: 720px;
+}
+/*end pessoas*/
+
+/*titulos h2*/
+.titulo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/*textos das descriçôes*/
+.descricao {
+    color: rgb(53, 53, 53);
+    font-size: 16px;
+    width: 420px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
 
 ul {
     display: flex;
@@ -81,122 +208,6 @@ a:hover {
     font-weight: 800;
 }
 
-
-#banner {
-    background: #C4C4C4;
-    height: 420px;
-    width: 1440px;
-}
-
-#destaque {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background: #D4E9E2;
-    margin-top: 28px;
-    height: 191px;
-    width: 1440px;
-}
-
-
-#coffe-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background: #D4E9E2;
-    margin-top: 28px;
-    margin-right: 0px;
-    height: 420px;
-    width: 720px;
-}
-
-#coffeimg {
-    background: #C4C4C4;
-    margin-top: 28px;
-    height: 420px;
-    width: 720px;
-}
-
-#maonaplantaimg {
-    background: #C4C4C4;
-    margin-top: 28px;
-    height: 420px;
-    width: 720px;
-}
-
-
-#planta-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background: #D4E9E2;
-    margin-top: 28px;
-    height: 420px;
-    width: 720px;
-}
-
-#pessoas-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background: #D4E9E2;
-    margin-top: 28px;
-    height: 420px;
-    width: 720px;
-}
-
-#pessoasimg {
-    background: #C4C4C4;
-    margin-top: 28px;
-    margin-right: 0px;
-    height: 420px;
-    width: 720px;
-}
-
-#coffe {
-    display: flex;
-    flex-direction: row;
-}
-
-#plantas {
-    display: flex;
-    flex-direction: row;
-}
-
-#pessoa {
-    display: flex;
-    flex-direction: row;
-}
-
-.titulo {
-    color: rgb(0, 0, 0);
-    width: 420px;
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.descricao {
-    
-    color: rgb(53, 53, 53);
-    font-size: 16px;
-    width: 420px;
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.destaque {
-    margin-bottom: 20px;
-}
-
-.banner {
-    width: 1440px;
-    height: 420px;
-}
-
 button {
     border-radius: 30px;
     width: 110px;
@@ -219,6 +230,7 @@ button:hover
     -moz-box-shadow: 6px 12px 17px -40px rgba(0,0,0,0.67);
 }
 
+/*start footer superior*/
 footer {
     display: flex;
     flex-direction: row;
@@ -230,24 +242,50 @@ footer {
     width: 1440px;
 }
 
-.footer {
-    padding: 5px;
-    flex-direction: column;
-
-}
-
-#footer {
-    text-align: center;
-}
-
 .historias-img {
     width: 100px;
     height: 100px;
     margin-top: 10px;
     padding: 10px;
-    
+}
+/*end footer superior*/
+
+/*start footer inferior*/
+#iconsfooter {
+    display: flex;
+    flex-direction:column;
+    border: 1px solid red;
+    padding-left: 20px;
 }
 
+#socialicon {
+    margin: 10px;
+    border: 1px solid red;
+    width: 35px;
+    height: 35px;
+}
+
+.fticons {
+    border: red solid;
+}
+
+#link {
+    border: red solid;
+}
+
+.footerlink {
+    display: flex;
+    flex-direction: row;
+    border: red solid;
+}
+
+.copyright {
+    text-align: center;
+}
+/*end footer inferior*/
+
+
+/*start reponsividade 780px*/
 @media only screen and (max-width: 780px) {
     body {
         display: block;
@@ -432,7 +470,9 @@ footer {
         width: 780px;
     }
 }
+/*end reponsividade 780px*/
 
+/*start reponsividade 480px*/
 @media only screen and (max-width: 480px) {
     body {
         display: block;
@@ -618,3 +658,4 @@ footer {
         width: 480px;
     }
 }
+/*end reponsividade 480px*/
