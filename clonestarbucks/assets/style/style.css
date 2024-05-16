@@ -5,6 +5,19 @@ body {
     align-items: center;
 }
 
+body.dark {
+    background: rgb(22, 21, 39);
+    color: #ffffff;
+}
+
+body.maior{
+    font-size: 20px;
+}
+
+/*start tamanho da fonte*/
+
+/*end tamanho da fonte*/
+
 /*Define o tamanho para todas as imagens do site obs: altera o tamho banner*/
 img {
     height: 420px;
@@ -20,6 +33,7 @@ img {
     height: 100px;
     width: 1440px;
 }
+
 
 /*Parte esquerda que fica dentro do menu*/
 #logo-starbucks {
@@ -82,6 +96,7 @@ img {
     height: 191px;
     width: 1440px;
 }
+
 
 .destaque {
     margin-bottom: 20px;

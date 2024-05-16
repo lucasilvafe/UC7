@@ -1,0 +1,30 @@
+body {
+    background-color: aliceblue;
+}
+
+body.dark {
+    background: rgb(43, 43, 43);
+}
+
+.checkbox {
+    opacity: 0%;
+    position: absolute;
+}
+
+.label {
+    background: rgb(36, 36, 36);
+    cursor: pointer;
+    width: 35px;
+    height: 20px;
+    border-radius: 15px;
+    justify-content: center;
+    border: red 1px solid;
+}
+
+.label .circle {
+    color: aliceblue;
+    width: 10px;
+    height: 10px;
+    border: 1px solid ;
+    border-radius: 10px;
+}
