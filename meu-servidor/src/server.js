@@ -1,14 +1,10 @@
 //Importa o express para o mneu projeto
-const express = require('express')
+const express = require('express');
+const { listarUsuario, listarUsuarioPorParametroOpcional } = require('./controllers/users');
 
 // Cria uma instancia do express
 const app = express();
 
-const usuario = [
-    {id: 1, nome: 'Maria', idade: 18},
-    {id: 2, nome: 'Eduanea', idade: 33},
-    {id: 3, nome: 'Maria', idade: 45}
-]
 
 // '/' é o endereço base do server
 // req - recebe a requesição
@@ -18,15 +14,25 @@ const usuario = [
 //     res.send(pessoas)
 // })
 
+
+
+
 // uma rota com parametros
-app.get('/usuario/:id', (req, res) =>{
-    const resultado = usuario.find((usuario) => {
-        return usuario.id == req.params.id
-    })
+app.get('/usuario/:id', listarUsuario)
 
-    res.send(resultado)
-})
+app.get('/usuario', listarUsuarioPorParametroOpcional)
 
+
+
+
+
+
+
+
+
+
+
+//----------------------------------------//
  app.listen(3000, () => {
      console.log('Servidor funcionando na porta 3000');
     
@@ -34,20 +40,5 @@ app.get('/usuario/:id', (req, res) =>{
 
 // Umas rota com parametro opcional
 
-app.get('/usuario', (req, res) => {
-    console.log(req.query.nome);
-    const { nome } = req.query;
 
-    let resultado = '';
-    if (nome) {
-        //resultado = usuario.find((usuario) => {
-        resultado = usuario.filter((usuario) => {
-            return usuario.nome === nome;
-        })
-    }
 
-    if (resultado == undefined){
-        res.send('Não Encontrou!')
-    }
-    res.send(resultado)
-})
