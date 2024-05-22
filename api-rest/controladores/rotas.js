@@ -7,4 +7,5 @@ const rotas = express();
 rotas.get('/instrutores', listarInstrutores);
 rotas.get('/instrutor/:id', listarInstrutor);
 
+
 module.exports = rotas;
